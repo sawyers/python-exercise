@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-exercise"
+version = "0.1.0"
+description = "A place to keep exercise snippets"
+authors = ["Michael <5084015+sawyers@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.13.0"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
