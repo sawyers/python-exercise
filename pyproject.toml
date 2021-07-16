@@ -6,6 +6,8 @@ authors = ["Michael <5084015+sawyers@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+ipykernel = "^6.0.0"
+nbconvert = "^6.1.0"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.13.0"
